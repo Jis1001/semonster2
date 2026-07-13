@@ -12,4 +12,10 @@ public class MonsterTest {
     Monster classUnderTest = new Monster();
     assertEquals("デュラハン:レア度[0]", classUnderTest.toString());
   }
+
+  @Test
+  public void summonMonster() {
+    Monster classUnderTest = new Monster();
+    assertEquals("ドラゴン", classUnderTest.summonMonster(2));
+  }
 }
