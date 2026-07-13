@@ -17,4 +17,9 @@ public class Monster {
   public String toString() {
     return this.name + ":レア度[" + this.rare + "]";
   }
+
+  public String printDullahanText() {
+    return "デュラハンは首なしの騎士で、恐ろしい姿をしているが、忠実な守護者でもある！";
+  }
+
 }
