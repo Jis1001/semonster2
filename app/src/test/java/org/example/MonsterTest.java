@@ -20,8 +20,8 @@ public class MonsterTest {
   }
 
   @Test
-  public void printDullahanText() {
+  public void dullahanText() {
     Monster classUnderTest = new Monster("デュラハン", 0);
-    assertEquals("デュラハンは首なしの騎士で、恐ろしい姿をしているが、忠実な守護者でもある！", classUnderTest.printDullahanText());
+    assertEquals("デュラハンは首なしの騎士で、恐ろしい姿をしているが、忠実な守護者でもある！", classUnderTest.dullahanText());
   }
 }
