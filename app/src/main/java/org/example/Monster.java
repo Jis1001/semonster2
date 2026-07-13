@@ -4,9 +4,9 @@ public class Monster {
   String name;
   int rare;
 
-  public Monster() {
-    this.name = "デュラハン";
-    this.rare = 0;
+  public Monster(String name, int rare) {
+    this.name = name;
+    this.rare = rare;
   }
 
   public String summonMonster(int rare) {

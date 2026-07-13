@@ -9,13 +9,13 @@ import static org.junit.Assert.*;
 public class MonsterTest {
   @Test
   public void monster() {
-    Monster classUnderTest = new Monster();
+    Monster classUnderTest = new Monster("デュラハン", 0);
     assertEquals("デュラハン:レア度[0]", classUnderTest.toString());
   }
 
   @Test
   public void summonMonster() {
-    Monster classUnderTest = new Monster();
+    Monster classUnderTest = new Monster("デュラハン", 0);
     assertEquals("ドラゴン", classUnderTest.summonMonster(2));
   }
 }
