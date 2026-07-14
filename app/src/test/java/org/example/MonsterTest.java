@@ -30,4 +30,10 @@ public class MonsterTest {
     Monster classUnderTest = new Monster("ゴーレム", 1);
     assertEquals("ゴーレムは土から生み出された巨人で、頑丈な身体と怪力を武器に戦う", classUnderTest.golemText());
   }
+
+  @Test
+  public void dragonText() {
+    Monster classUnderTest = new Monster("ドラゴン", 2);
+    assertEquals("ドラゴンは天空を支配する伝説の生物で、巨大な翼と灼熱の炎で敵を圧倒する", classUnderTest.dragonText());
+  }
 }
