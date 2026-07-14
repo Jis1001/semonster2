@@ -24,4 +24,10 @@ public class MonsterTest {
     Monster classUnderTest = new Monster("デュラハン", 0);
     assertEquals("デュラハンは首なしの騎士で、恐ろしい姿をしているが、忠実な守護者でもある！", classUnderTest.dullahanText());
   }
+
+  @Test
+  public void golemText() {
+    Monster classUnderTest = new Monster("ゴーレム", 1);
+    assertEquals("ゴーレムは土から生み出された巨人で、頑丈な身体と怪力を武器に戦う", classUnderTest.golemText());
+  }
 }

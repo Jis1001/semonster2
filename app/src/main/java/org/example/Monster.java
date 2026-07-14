@@ -22,4 +22,8 @@ public class Monster {
     return "デュラハンは首なしの騎士で、恐ろしい姿をしているが、忠実な守護者でもある！";
   }
 
+  public String golemText() {
+    return "ゴーレムは土から生み出された巨人で、頑丈な身体と怪力を武器に戦う";
+  }
+
 }
